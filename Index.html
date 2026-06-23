@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ibrahim Website</title>
+    <link rel="stylesheet" href="Css/master.css">
+    <meta name="description" content="This Is Our Book Store">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Navbar -->
+<header class="Navbar">
+    <div class="logo">Ibrahim <span>.Dev</span></div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Hero -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Ibrahim</h1>
+        <h3>I'm a <span class="highligh">Full-Stack .NET Developer</span></h3>
+        <p>I build clean, scalable, and high-performance web applications. Welcome to my digital space!</p>
+        <div class="hero-btn">
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+    </div>
+    <div class="hero-img">
+        <img src="Img.jpeg" alt="Ibrahim profile" class="profile-pic">
+    </div>
+</section>
+<!-- About & Skill -->
+<section id="about" class="about">
+    <div class="about-container">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <p>I am a highly motivated Full-Stack .Net Developer dedicated to engineering officient backend architectures and clean, responsive user interfaces. with a solid foundation in Object-Oriented Programming (OOP) and modern front-end technologies, I focus on writing clean, maintainable code and solving complex logical challenges. I am fully prepared to join a dynamic software development team where I can contribute to high-quality business solutions.</p>
+        </div>
+        <h3 class="sub-heading">My Tech Stack</h3>
+        <div class="skills-grid">
+    <div class="skill-card">
+        <div class="skill-icon">
+            <i class="fas fa-code" style="color: #0ea5e9; font-size: 3.5rem;"></i>
+        </div>
+        <h4>C# programming</h4>
+        <p>Core fundamentals, OOP concepts, and logical problem solving.</p>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon">
+            <i class="fab fa-html5" style="color: #e34f26;"></i>
+        </div>
+        <h4>HTML5</h4>
+        <p>Structuring semantic, clean, and accessible web content.</p>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon">
+            <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+        </div>
+        <h4>CSS3</h4>
+        <p>Styling, modern layouts with Flexbox/Grid, and responsive design.</p>
+    </div>
+
+    <div class="skill-card">
+        <div class="skill-icon">
+            <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+        </div>
+        <h4>JavaScript</h4>
+        <p>DOM manipulation, ES6+ features, and adding dynamic interactivity.</p>
+    </div>
+</div>
+    </div>
+</section>
+<!-- Portfolio -->
+ <section id="projects" class="projects">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <div class="project-icon">
+                <i class="fab fa-chrome"></i>
+            </div>
+            <div class="project-info">
+                <h4>Personal Portfolio Website</h4>
+                <p>A responsive, modern Portfolio Website built from scratch using HTML5, CSS3, and JavaScript. Optimized for performance and clean UI/UX.</p>
+                <div class="project-links">
+                    <a href="#" class="btn-project"><i class="fab fa-github"></i>GitHub</a>
+                    <a href="#" class="btn-project live"><i class="fas fa-external-link-alt"></i>Live Demo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-icon">
+                <i class="fas fa-database"></i>
+            </div>
+            <div class="project-info">
+                <h4>C# & SQL Management System</h4>
+                <p>An upcoming backend-focused application applying OOP principles, complex logical problem solving, and SQL Server database management.</p>
+                <div class="project-links">
+                    <a href="#" class="btn-project"><i class="fab fa-github"></i>GitHub</a>
+                    <a href="#" class="btn-project live"><i class="fas fa-external-link-alt"></i>Live Demo</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+ </section>
+<!-- Contact Me -->
+<section id="contact" class="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+        
+    <form action="#">
+        <div class="input-box">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+                <input type="tel" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+        </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+<!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Ibrahim | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fas fa-angle-up"></i> Top</a>
+        </div>
+    </footer>
+ </section>
+    <script src="Js/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    ScrollReveal({ 
+        reset: true,
+        distance: '80px',
+        duration: 2000,
+        delay: 200
+    });
+    ScrollReveal().reveal('.hero-content, .heading', { origin: 'top' });
+    ScrollReveal().reveal('.profile-pic, .skills-grid, .projects-container, .contact form', { origin: 'bottom' });
+</script>
+
+
+     <!-- <div class="load">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div> -->
+    <!-- <div class="page">
+    <h2>Hema</h2>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Servises</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <section>Content</section>
+    <aside>Sidebar</aside>
+    <footer>Footer</footer>
+   </div>  -->
+    <!-- <H1>Book Store</H1>
+    <p>This Is My Book Store, Welcome</p>
+    <p>We Have A Big Sale</p>
+    <p class="Special"><del>$100</del> $80</p>
+    <P><a href="https://google.com" target="_blank" title="Go To Google">Google</a></P>
+    <hr>
+     <img src="https://elzero.org/wp-content/uploads/2025/10/video-ai.png" alt=""> -->
+    <!-- <form action="" method="post">
+        <div> -->
+            <!-- <label>Username</label> -->
+            <!-- <input type="text" required placeholder="Username" name="user">
+        </div>
+        <br>
+        <div>
+           <label>password</label> -->
+            <!-- <input type="password" required placeholder="password" name="pass" minlength="10" maxlength="15">
+        </div>
+        <br>
+        <div>  -->
+            <!-- <label>password</label> -->
+            <!-- <input type="email" required placeholder="email" name="mail">
+        </div>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        <label for="Book">Choose Book</label>
+        <select name="book" id="book">
+            <optgroup label="Romantic Books">
+                <option value="1">Book 1</option>
+                <option value="2">Book 2</option>
+                <option value="3">Book 3</option>
+            </optgroup>
+            <optgroup label="Police Books">
+                <option value="4">Book 4</option>
+                <option value="5">Book 5</option>
+                <option value="6">Book 6</option>
+            </optgroup>
+        </select>
+
+
+
+    </form>  -->
+</body>
+
+</html>
