@@ -827,17 +827,25 @@ body {
     .contact form .input-box input { 
         width: 100%; 
     }
-    .hero {
+   section.hero {
         height: auto !important;
         min-height: 100vh;
-        padding-top: 8rem !important;
+        padding-top: 13rem !important; 
         padding-bottom: 3rem !important;
     }
-    .hero img { 
-        width: 220px !important;
-        height: 220px !important;
-        object-fit: cover;
-        margin-bottom: 20px;
+
+    .badge-wrapper {
+        transform: scale(0.82) !important; 
+        transform-origin: top center !important; 
+        margin-top: 20px !important;
+        display: inline-block;
+    }
+
+    .badge-avatar-wrap img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        border-radius: 50% !important;
     }
     .nav-links {
         gap: 12px !important;
