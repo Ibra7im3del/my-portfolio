@@ -392,6 +392,11 @@ body {
     font-weight: 600;
 }
 
+.meta-item a {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
 .meta-lbl {
     color: var(--accent-color); 
     font-weight: 700;
